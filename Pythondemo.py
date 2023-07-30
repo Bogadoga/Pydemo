@@ -1,7 +1,7 @@
 name =input("Hello welcome to our coffee shop!\nCan i get your name?\n\n")
 
 
-
+#if the name is ben patrick or patricia and they are evil they will get kicked out.
 if name in ["Ben", "Patrick", "Patricia"]:
   evil =input("Are you evil?\n")
   if evil == "Yes":
@@ -36,3 +36,4 @@ elif response == "Green coffee":
 
 else:
   print("Sorry we dont have that here.")
+
